@@ -10,7 +10,7 @@ void my_putchar(char c){
   write(1, &c, 1);
 }
 
-void my_print_alpha(void){
+void my_print_revalpha(void){
   char letter = 'z';
    while(letter >= 'a'){
      my_putchar(letter);
