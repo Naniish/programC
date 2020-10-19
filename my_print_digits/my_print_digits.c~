@@ -10,15 +10,14 @@ void my_putchar(char c){
   write(1, &c, 1);
 }
 
-void my_print_revalpha(void){
-  char letter = 'z';
-   while(letter >= 'a'){
-     my_putchar(letter);
-       letter--;
+void my_print_alpha(void){
+  char digit;
+   for(digit='0'; digit <= '9'; digit++){
+     my_putchar(digit); "\n";
    }
 }
 int main(int argc, char **argv){
-    my_print_revalpha();
+    my_print_alpha();
 
     return (0);
 }
