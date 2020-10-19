@@ -16,8 +16,4 @@ void my_print_alpha(void){
      my_putchar(letter); "\n";
    }
 }
-int main(int argc, char **argv){
-    my_print_alpha();
 
-    return (0);
-}

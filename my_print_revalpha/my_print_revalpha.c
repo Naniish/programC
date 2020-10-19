@@ -17,8 +17,3 @@ void my_print_revalpha(void){
        letter--;
    }
 }
-int main(int argc, char **argv){
-    my_print_revalpha();
-
-    return (0);
-}

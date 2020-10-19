@@ -16,8 +16,3 @@ void my_iseven(int n){
   }
   
 }
-int main(int argc, char **argv){
-    my_iseven(5);
-
-    return (0);
-}

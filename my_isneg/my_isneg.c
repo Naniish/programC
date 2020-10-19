@@ -17,8 +17,7 @@ void my_isneg(int n){
   }
   
 }
-int main(int argc, char **argv){
+/*int main(int argc, char **argv){
     my_isneg(-100);
-
     return (0);
-}
+    }*/
