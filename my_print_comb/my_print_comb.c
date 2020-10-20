@@ -6,9 +6,7 @@
 ** 		No file there, just an etna header example
 */
 
-void my_putchar(char c){
-  write(1, &c, 1);
-}
+void my_putchar(char c);
 
 void my_print_comb(void){
   int a, b, c;
@@ -21,6 +19,5 @@ void my_print_comb(void){
 	my_putchar(' ');
       }
     }
-  }
-  
+  } 
 }
